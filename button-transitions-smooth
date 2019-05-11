@@ -1,0 +1,53 @@
+<html>
+<head>
+<style type='text/css'>
+	body {
+		background:#e1e1e1;
+	}
+	.main {
+	display:flex;
+	align-items:center;	
+	justify-content:center;
+	flex-direction: column;
+	min-height:500px;
+	max-width:900px;
+	background:white;
+	padding:20px;
+	margin: 80px auto;
+	border-radius:6px;
+	box-shadow: 7px 7px 20px rgba(0,0,0,.2);
+	}
+	.button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width:280px;
+		width:50%;
+		padding:15px 30px;
+		margin:10px 0;
+		background:orange;
+		font-family:roboto;
+		font-weight:bold;
+		font-size:25px;
+		color:white;
+		border-radius:6px;
+		box-shadow:5px 5px 12px rgba(0,0,0,.4);
+		cursor:pointer;
+		transition: transform .3s, box-shadow .3s;
+	}
+	.button:hover {
+		transform: scale(1.05) translate(0px,0px);
+		box-shadow:5px 5px 12px rgba(0,0,0,.7);
+	}	
+	
+</style>
+</head>
+<body>
+	<div class="main">
+		<div class="button">Button 1</div>
+		<div class="button">Button 2</div>
+		<div class="button">Button 3</div>
+		<div class="button">Button 4</div>
+	</div>
+</body>
+</html>
